@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment"
+    android:background="@color/bg">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_profile"
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        app:cardCornerRadius="100dp"
+        app:cardElevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="145dp"
+        >
+        <ImageView
+            android:id="@+id/img_profile"
+            android:layout_width="100dp"
+            android:layout_height="160dp"
+            android:src="@drawable/profile_picture"
+            android:layout_gravity="center"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Raya Anugraha"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/card_profile"
+        android:layout_marginTop="30dp"
+        style="@style/CustomTextTitle"
+        />
+    
+    <TextView
+        android:id="@+id/txt_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22/501349/SV/25720"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txt_name"
+
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

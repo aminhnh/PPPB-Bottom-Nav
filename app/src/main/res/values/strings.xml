@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PPPB Bottom Nav</string>
+
+    <string-array name="ticket_class_array">
+        <item>First Class Ticket</item>
+        <item>Business Class Ticket</item>
+        <item>Economy Class Ticket</item>
+    </string-array>
+
+</resources>
