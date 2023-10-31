@@ -46,25 +46,6 @@ class BuyFragment : Fragment() {
                 spinner.adapter = adapter
             }
 
-
-//            spinner.adapter = adapterClass
-//
-//            spinner.onItemClickListener =
-//                object: AdapterView.OnItemSelectedListener {
-//                    override fun onItemSelected(
-//                        parent: AdapterView<*>?,
-//                        view: View?,
-//                        position: Int,
-//                        id: Long
-//                    ) {
-//                        val selectedTicket = parent?.getItemAtPosition(position).toString()
-//                    }
-//
-//                    override fun onNothingSelected(parent: AdapterView<*>?) {
-//                        TODO("Not yet implemented")
-//                    }
-//                }
-
             btnBuy.setOnClickListener{
                 findNavController().navigateUp()
             }
